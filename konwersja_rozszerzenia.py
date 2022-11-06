@@ -11,4 +11,6 @@ if __name__ == '__main__':
     im1 = Image.open(dir_path / 'JPGs' / a)
     im1.save(dir_path / 'PNGs' / b)
 
+    print('\nConverted.')
+
     #funkcja do konwersji, np. source destination -> zbiorowe konwertowanie
