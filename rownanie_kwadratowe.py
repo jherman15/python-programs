@@ -1,16 +1,16 @@
 import cmath
 if __name__ == '__main__':
 
-    print
+    a = 5
+    b = 6
+    c = 1
 
-    # calculate the discriminant
+    print ('\nEquation: ax^2 + bx + c = 0\n')
 
-    w = (y ** 2) - (4 * x * z)
+    delta = (b ** 2) - (4 * a * c)
 
-    # find two solutions
+    x1 = (-b - cmath.sqrt(delta)) / (2 * a)
 
-    sol1 = (-y - cmath.sqrt(w)) / (2 * x)
+    x2 = (-b + cmath.sqrt(delta)) / (2 * a)
 
-    sol2 = (-y + cmath.sqrt(w)) / (2 * x)
-
-    print('The solution are {0} and {1}'.format(sol1, sol2))
+    print('Solutions:\nx1: ', x1, '\nx2: ', x2)
