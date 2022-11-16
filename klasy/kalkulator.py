@@ -4,18 +4,20 @@ from klasy.liczby_zespolone import ComplexNumber
 
 # num1 = ComplexNumber(input("Enter first number: "))
 # num2 = ComplexNumber(input("Enter second number: "))
-
+print("\nNumbers:\nFirst number:")
 num1 = ComplexNumber(3, 15j)
+print("2. Second number:")
 num2 = ComplexNumber(1, 12j)
+print("")
 
 # take input from the user
-print("Select operation.")
+print("Select operation:")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
-choice = input("Enter choice: 1, 2, 3, or 4: ")
+choice = input("\nEnter choice: 1, 2, 3, or 4: ")
 
 if choice == '1':
     result = num1 + num2
