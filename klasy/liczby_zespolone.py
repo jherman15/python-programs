@@ -26,19 +26,3 @@ class ComplexNumber(object):
         r = (other.real ** 2 + other.imag ** 2)
         return ComplexNumber((self.real * other.real - self.imag * other.imag) / r,
                        (self.imag * other.real + self.real * other.imag) / r)
-
-
-a = ComplexNumber(3, 15j)
-b = ComplexNumber(1, 12j)
-
-# Addition
-a + b
-
-# Subtraction
-a - b
-
-# Multiplication
-a * b
-
-# Division
-a / b
