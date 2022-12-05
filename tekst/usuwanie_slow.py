@@ -6,9 +6,9 @@ if __name__ == '__main__':
     # s = s.replace('dlaczego', '')
     # print(s)
 
-    dir_path = Path(r'C:\python_lab_jh\TXTs')
-    infile = Path('tekst1.txt')
-    outfile = Path('out.txt')
+    dir_path = Path(r'C:\Users\herma\PycharmProjects\python-programs\tekst\files')
+    infile = Path('infile.txt')
+    outfile = Path('outfile_deleting.txt')
     #infile_path = dir_path.joinpath(infile)
     #outfile_path = dir_path.joinpath(outfile)
     delete_list = ['się', 'i', 'oraz', 'nigdy', 'dlaczego']
