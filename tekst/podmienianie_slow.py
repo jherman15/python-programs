@@ -2,9 +2,9 @@ from pathlib import Path
 
 if __name__ == '__main__':
 
-    dir_path = Path(r'C:\python_lab_jh\TXTs')
-    infile = Path('tekst1.txt')
-    outfile = Path('out.txt')
+    dir_path = Path(r'C:\Users\herma\PycharmProjects\python-programs\tekst\files')
+    infile = Path('infile.txt')
+    outfile = Path('outfile.txt')
 
     replaced_words = {
         'i': 'oraz',
