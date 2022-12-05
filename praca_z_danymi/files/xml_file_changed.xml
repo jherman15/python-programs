@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><bookstore>
+    <book category="cooking">
+        <title>This is a new book title!</title>
+        <author>This is a new book author!</author>
+        <price>This is a new book price!</price>
+    </book>
+    <book category="children">
+        <title>Harry Potter</title>
+        <author>J. K. Rowling</author>
+        <price>40.00</price>
+    </book>
+</bookstore>
